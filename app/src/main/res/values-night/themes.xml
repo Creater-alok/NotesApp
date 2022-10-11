@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- I didn't want reversing of bw so I used 'Light' in place of 'DayNight' -->
+    <style name="Theme.Notes" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <!-- This is the color of Action Bar-->
+        <item name="colorPrimary">@color/brown</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <!-- This color if of button text-->
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/brown</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
